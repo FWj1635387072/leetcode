@@ -31,7 +31,7 @@ public class _1021_删除最外层括号 {
                 stack.pop();
                 if (stack.isEmpty()) {
                     end = i;
-                    sb.append(S.substring(begin + 1,end));
+                    sb.append(S.substring(begin + 1, end));
                     begin = i + 1;
                 }
             }
