@@ -19,9 +19,10 @@ public class _面试_2_7_链表相交 {
         int count1 = count(headA);
         int count2 = count(headB);
 
-            
+
         return null;
     }
+
 
     public int count(ListNode head) {
         ListNode p = head;
